@@ -1,108 +1,53 @@
 <!DOCTYPE html>
-<html style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths no-touchevents"
-    lang="en">
-
+<html lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>See all Workstack features - Workstack</title>
-  <meta name="description" content="Workstack helps you schedule tasks for your team and manage your projects">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="Workstack, project management, task management, task scheduling, team calendar, Basecamp alternative, Asana alternative">
-  <meta name="author" content="Workstack">
-  <!-- Pinterest verification -->
-  <meta name="p:domain_verify" content="1c699d9714f892484d7a1e9c688d6338">
+
+  <title>Workstack - team planning made easy</title>
 
   <!-- Standard iPhone -->
-  <link rel="apple-touch-icon" sizes="57x57" href="https://workstack.io/img/apple-touch-icon-iphone-114.png">
-  <!-- Retina iPhone -->
-  <link rel="apple-touch-icon" sizes="114x114" href="https://workstack.io/img/apple-touch-icon-iphone-114.png">
-  <!-- Standard iPad -->
-  <link rel="apple-touch-icon" sizes="72x72" href="https://workstack.io/img/apple-touch-icon-ipad-144.png">
-  <!-- Retina iPad -->
-  <link rel="apple-touch-icon" sizes="144x144" href="https://workstack.io/img/apple-touch-icon-ipad-144.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad-144.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-144.png">
+  <link rel="icon" type="image/png" href="img/ws-icon.png">
 
-  <link rel="stylesheet" href="features_files/normalize.css">
-  <link rel="stylesheet" href="features_files/MyFontsWebfontsKit.css">
-  <link rel="stylesheet" href="features_files/bootstrap.css">
-  <link rel="stylesheet" href="features_files/bootstrap-slider.css">
-  <link rel="stylesheet" href="features_files/ws.css">
-  <link rel="icon" type="image/png" href="https://workstack.io/img/ws-icon.png">
-  <script type="text/javascript" id="www-widgetapi-script" src="features_files/www-widgetapi.js" async=""></script>
-  <script src="features_files/iframe_api"></script>
-  <script async="" src="features_files/gtm.js"></script>
-  <script src="features_files/modernizr-2.js"></script>
-  <style>
-    [href^="http://www.faceporn.net/free?"] {
-      display: none !important;
-    }
-  </style>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/MyFontsWebfontsKit.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-slider.css">
+  <link rel="stylesheet" href="css/ws.css">
 
-
-
-
-
-
-
-  <!-- Google Tag Manager -->
-  <script>
-    dataLayer = [];
-  </script>
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N2XZD8');
-  </script>
-  <!-- end Google Tag Manager -->
-
+  <script src="js/modernizr-2.js"></script>
 </head>
-
 <body id="ws-body">
-
-
   <div class="wrapper clearfix">
-
     <!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-
-    <!-- Add your site or application content here -->
-
-    <div class="cover" style="display: none; opacity: 0;">
-      <div class="loader" style="position: relative;">
-        <div id="loadie-1481371779881" class="loadie" style="width: 1745px; display: none;"></div>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="cover">
+      <div class="loader">
+        <div id="loadie-1481371732519" class="loadie"></div>
       </div>
       <div class="cover-logo"></div>
     </div>
 
     <header>
-      <div class="mobile-nav-bg" style="opacity: 0; display: none;"></div>
-      <img src="features_files/nav-icon.svg" class="nav-icon" alt="Menu" style="transform: rotate(0deg);">
+      <div class="mobile-nav-bg"></div>
+      <img src="img/nav-icon.svg" class="nav-icon" alt="Menu" style="transform: rotate(0deg);">
       <div class="logo-container">
-        <a href="https://workstack.io/"><img src="features_files/workstack-logo.svg" class="logo" alt="Workstack"></a>
+        <a href="/"><img src="img/workstack-logo.svg" class="logo" alt="Workstack"></a>
       </div>
-      <div class="nav-container" style="display: block; opacity: 1;">
+      <div class="nav-container">
         <ul class="nav-top">
-          <li><a href="https://workstack.io/" class="nav-link">Home</a></li>
-          <li class="active"><a href="https://workstack.io/features" class="nav-link">Features</a></li>
-          <li><a href="https://workstack.io/pricing" class="nav-link">Pricing</a></li>
-          <li><a href="https://workstack.io/contact" class="nav-link">Contact</a></li>
-          <li><a href="https://app.workstack.io/login" class="nav-link btn-outline">Login</a></li>
-          <li><a href="https://app.workstack.io/register" class="nav-link btn-outline btn-highlight">Register</a></li>
+          <li><a href="#" class="nav-link btn-outline btn-language">RU</a></li>
+          <li class="active"><a href="/" class="nav-link">Home</a></li>
+          <li><a href="features.html" class="nav-link">Features</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="#" class="nav-link btn-outline">Login</a></li>
+          <li><a href="#" class="nav-link btn-outline btn-highlight">Register</a></li>
         </ul>
       </div>
     </header>
@@ -111,7 +56,7 @@
       <div class="popup-video-container">
         <div class="popup-video">
           <div class="popup-embed-container">
-            <div class="popup-close"><img src="features_files/icon-close.svg" class="popup-close-btn" alt="close"></div>
+            <div class="popup-close"><img src="img/icon-close.svg" class="popup-close-btn" alt="close"></div>
           </div>
         </div>
       </div>
@@ -129,28 +74,29 @@
           <h1 class="anim1">All the tools you need</h1>
           <h3 class="anim2">Plan projects, track time and schedule your team's tasks</h3>
         </div>
-        <div class="timeline">
-          <div class="screenshot-container-features">
+
+      <div class="timeline">
+        <div class="screenshot-container-features">
             <div class="screenshot-container-inner-features">
-              <div class="screenshot">
-                <div class="video-container">
-                  <div class="video-features-poster"></div>
-                  <div class="video-fade"></div>
-                  <a href="https://www.youtube.com/embed/AL0AI5SllYQ?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1" target="videoPlayer" class="play-link"></a>
-                  <div class="play-video">
-                    <img src="features_files/play-btn.svg" class="play-video-btn">
-                    <span class="video-title">Learn the basics</span>
-                    <span class="video-subtitle">An introduction to Workstack</span>
-                  </div>
-                  <iframe id="player" allowfullscreen="1" title="YouTube video player" src="features_files/mYCUnw4T0bc.htm" width="1600" height="900" frameborder="0"></iframe>
+                <div class="screenshot">
+                    <div class="video-container">
+                        <div class="video-features-poster"></div>
+                        <div class="video-fade"></div>
+                        <a href="https://www.youtube.com/embed/AL0AI5SllYQ?rel=0&controls=0&showinfo=0&autoplay=1" target="videoPlayer" class="play-link"></a>
+                        <div class="play-video">
+                            <img src="img/play-btn.svg" class="play-video-btn">
+                            <span class="video-title">Learn the basics</span>
+                            <span class="video-subtitle">An introduction to Workstack</span>
+                        </div>
+                        <div id="player"></div>
+                    </div>
+                    <div class="screenshot-keyboard">
+                        <div class="screenshot-groove"></div>
+                    </div>
+                    <div class="screenshot-keyboard-base"></div>
                 </div>
-                <div class="screenshot-keyboard">
-                  <div class="screenshot-groove"></div>
-                </div>
-                <div class="screenshot-keyboard-base"></div>
-              </div>
             </div>
-          </div>
+        </div>
 
 
           <!-- Section 1 -->
@@ -185,14 +131,14 @@
                       </div>
                     </div>
                     <div class="col-sm-6">
-                      <img src="features_files/assign-the-same-todo-to-multiple-people.png" alt="With Workstack you can assign the same todo to more than one person" class="feature-img margin-md">
+                      <img src="img/assign-the-same-todo-to-multiple-people.png" alt="With Workstack you can assign the same todo to more than one person" class="feature-img margin-md">
                     </div>
                   </div>
                 </div>
                 <div class="slide" style="width: 1200px; left: -1200px; transition-duration: 0ms; transform: translateX(1200px);" data-index="1">
                   <div class="row eq-height">
                     <div class="col-sm-6">
-                      <img src="features_files/setting-task-estimates.jpg" alt="With Workstack you can set estimates for projects and tasks" class="rounded-corners shadow feature-img">
+                      <img src="img/setting-task-estimates.jpg" alt="With Workstack you can set estimates for projects and tasks" class="rounded-corners shadow feature-img">
                     </div>
                     <div class="col-md-6">
                       <div class="feature-info">
@@ -216,7 +162,7 @@
                       </div>
                     </div>
                     <div class="col-md-6">
-                      <img src="features_files/track-the-progress-of-your-projects.jpg" alt="With Workstack you can track the overall progress of your projects from the project dashboard" class="rounded-corners shadow feature-img margin-lg">
+                      <img src="img/track-the-progress-of-your-projects.jpg" alt="With Workstack you can track the overall progress of your projects from the project dashboard" class="rounded-corners shadow feature-img margin-lg">
                     </div>
                   </div>
                 </div>
@@ -240,7 +186,7 @@
                 <div class="slide" style="width: 1200px; left: 0px; transition-duration: 1000ms; transform: translateX(-1200px);" data-index="0">
                   <div class="row eq-height">
                     <div class="col-md-6">
-                      <img src="features_files/the-different-types-of-task-in-workstack.jpg" alt="There are two different types of task in Workstack" class="rounded-corners shadow feature-img">
+                      <img src="img/the-different-types-of-task-in-workstack.jpg" alt="There are two different types of task in Workstack" class="rounded-corners shadow feature-img">
                     </div>
                     <div class="col-md-6">
                       <div class="feature-info">
@@ -256,7 +202,7 @@
                 <div class="slide" style="width: 1200px; left: -1200px; transition-duration: 1000ms; transform: translateX(0px);" data-index="1">
                   <div class="row eq-height">
                     <div class="col-md-6">
-                      <img src="features_files/assign-tasks-to-people.jpg" alt="With Workstack you can just click and drag todos to assign them to people" class="rounded-corners shadow feature-img margin-md">
+                      <img src="img/assign-tasks-to-people.jpg" alt="With Workstack you can just click and drag todos to assign them to people" class="rounded-corners shadow feature-img margin-md">
                     </div>
                     <div class="col-md-6">
                       <div class="feature-info">
@@ -273,7 +219,7 @@
                 <div class="slide" style="width: 1200px; left: -2400px; transition-duration: 0ms; transform: translateX(1200px);" data-index="2">
                   <div class="row eq-height">
                     <div class="col-md-6">
-                      <img src="features_files/group-similar-people-together.jpg" alt="Workstack allows you to schedule meetings and time off" class="rounded-corners shadow feature-img margin-lg">
+                      <img src="img/group-similar-people-together.jpg" alt="Workstack allows you to schedule meetings and time off" class="rounded-corners shadow feature-img margin-lg">
                     </div>
                     <div class="col-md-6">
                       <div class="feature-info">
@@ -289,7 +235,7 @@
                 <div class="slide" style="width: 1200px; left: -3600px; transition-duration: 0ms; transform: translateX(-1200px);" data-index="3">
                   <div class="row eq-height">
                     <div class="col-md-6">
-                      <img src="features_files/schedule-meetings-and-time-off.jpg" alt="Workstack allows you to schedule meetings and time off" class="rounded-corners shadow feature-img margin-sm">
+                      <img src="img/schedule-meetings-and-time-off.jpg" alt="Workstack allows you to schedule meetings and time off" class="rounded-corners shadow feature-img margin-sm">
                     </div>
                     <div class="col-md-6">
                       <div class="feature-info">
@@ -333,14 +279,14 @@
                       </div>
                     </div>
                     <div class="col-md-6">
-                      <img src="features_files/workstack-task-timer.jpg" alt="With the Workstack timer you can record time worked as you go" class="rounded-corners shadow feature-img margin-md">
+                      <img src="img/workstack-task-timer.jpg" alt="With the Workstack timer you can record time worked as you go" class="rounded-corners shadow feature-img margin-md">
                     </div>
                   </div>
                 </div>
                 <div class="slide" style="width: 1200px; left: -1200px; transition-duration: 0ms; transform: translateX(1200px);" data-index="1">
                   <div class="row eq-height">
                     <div class="col-md-6">
-                      <img src="features_files/logging-time-in-workstack.jpg" alt="The todo time log in Workstack" class="rounded-corners shadow feature-img">
+                      <img src="img/logging-time-in-workstack.jpg" alt="The todo time log in Workstack" class="rounded-corners shadow feature-img">
                     </div>
                     <div class="col-md-6">
                       <div class="feature-info">
@@ -365,7 +311,7 @@
                       </div>
                     </div>
                     <div class="col-md-6">
-                      <img src="features_files/track-time-worked-in-reports.jpg" alt="Workstack can track time worked on projects or by people" class="rounded-corners shadow feature-img">
+                      <img src="img/track-time-worked-in-reports.jpg" alt="Workstack can track time worked on projects or by people" class="rounded-corners shadow feature-img">
                     </div>
                   </div>
                 </div>
@@ -382,7 +328,7 @@
               <div class="slide">
                 <div class="row eq-height">
                   <div class="col-md-6">
-                    <img src="features_files/discuss-individual-todos.jpg" alt="Discuss individual tasks" class="rounded-corners shadow feature-img">
+                    <img src="img/discuss-individual-todos.jpg" alt="Discuss individual tasks" class="rounded-corners shadow feature-img">
                   </div>
                   <div class="col-md-6">
                     <div class="feature-info">
@@ -419,22 +365,22 @@
                   <div class="col-md-6">
                     <div class="apps">
                       <div class="app-icon">
-                        <img src="features_files/app-google-calendar.jpg" alt="Workstack integrates with Google Calendar">
+                        <img src="img/app-google-calendar.jpg" alt="Workstack integrates with Google Calendar">
                       </div>
                       <div class="app-icon">
-                        <img src="features_files/app-zapier.jpg" alt="Workstack integrates with Zapier">
+                        <img src="img/app-zapier.jpg" alt="Workstack integrates with Zapier">
                       </div>
                       <div class="app-icon">
-                        <img src="features_files/app-slack.jpg" alt="Workstack integrates with Slack">
+                        <img src="img/app-slack.jpg" alt="Workstack integrates with Slack">
                       </div>
                       <div class="app-icon">
-                        <img src="features_files/app-basecamp.jpg" alt="Workstack integrates with Basecamp">
+                        <img src="img/app-basecamp.jpg" alt="Workstack integrates with Basecamp">
                       </div>
                       <div class="app-icon">
-                        <img src="features_files/app-trello-inactive.jpg" alt="Workstack integrates with Trello">
+                        <img src="img/app-trello-inactive.jpg" alt="Workstack integrates with Trello">
                       </div>
                       <div class="app-icon">
-                        <img src="features_files/app-asana-inactive.jpg" alt="Workstack integrates with Asana">
+                        <img src="img/app-asana-inactive.jpg" alt="Workstack integrates with Asana">
                       </div>
                     </div>
                   </div>
@@ -453,7 +399,7 @@
       <div class="clients">
         <div class="clients-outer">
           <div class="clients-img" data-stellar-ratio="0.7" style="position: relative; z-index: 0; background: transparent none repeat scroll 0% 0%; display: block; top: -43.3299px;">
-            <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 600px; width: 1745px; z-index: -999998; position: absolute;"><img style="position: absolute; margin: 0px; padding: 0px; border: medium none; width: 1745px; height: 622.965px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -11.4825px;" src="features_files/client-logos.png"></div>
+            <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 600px; width: 1745px; z-index: -999998; position: absolute;"><img style="position: absolute; margin: 0px; padding: 0px; border: medium none; width: 1745px; height: 622.965px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -11.4825px;" src="img/client-logos.png"></div>
           </div>
           <div class="clients-inner">
             <h2 class="anim-block lc" style="opacity: 1; transform: translate(0px, 0px);">Try it free for 30 days</h2>
@@ -529,28 +475,20 @@
 
   </div>
 
-  <script src="features_files/plugins.js"></script>
-  <script src="features_files/jquery_004.js"></script>
-  <script src="features_files/bootstrap.js"></script>
-  <script src="features_files/modernizr-custom.js"></script>
-  <script src="features_files/jquery.js"></script>
-  <script src="features_files/jquery_002.js"></script>
-  <script src="features_files/jquery_003.js"></script>
-  <script src="features_files/jquery_006.js"></script>
-  <script src="features_files/vivus.js"></script>
-  <script src="features_files/jquery_005.js"></script>
-  <script src="features_files/jquery_007.js"></script>
-  <script src="features_files/swipe.js"></script>
-  <script src="features_files/bootstrap-slider.js"></script>
-  <script src="features_files/ws.js"></script>
-
-
-
-
-
-
-
-
+  <script src="js/jquery.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/modernizr-custom.js"></script>
+  <script src="js/jquery_001.js"></script>
+  <script src="js/jquery_002.js"></script>
+  <script src="js/jquery_003.js"></script>
+  <script src="js/jquery_004.js"></script>
+  <script src="js/jquery_005.js"></script>
+  <script src="js/jquery_006.js"></script>
+  <script src="js/vivus.js"></script>
+  <script src="js/swipe.js"></script>
+  <script src="js/bootstrap-slider.js"></script>
+  <script src="js/ws.js"></script>
 
 </body>
 
